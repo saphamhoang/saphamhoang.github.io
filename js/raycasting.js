@@ -7,14 +7,14 @@ var volumes = {
 		,name: "Brain - mask"
 		,columns: 1
 		,slices: 20
-		,zScale: 0.2
+		,zScale: 0.5
 	}
 	,ves: {
 		 src: "./images/Lung.png"
 		,name: "Lung-mask"
 		,columns: 1
 		,slices: 8
-		,zScale: 0.2
+		,zScale: 0.5
 	},
 	sa: {
 		src: "./images/A2.png"
