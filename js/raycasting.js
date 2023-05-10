@@ -2,34 +2,34 @@
 
 
 var volumes = {
-	 sagittal: {
-		 src: "./images/sagittal.png"
-		,name: "Brain - Water"
-		,columns: 2
-		,slices: 176
-		,zScale: 0.7
-	}
-	,vessels: {
-		 src: "./images/vessels.png"
-		,name: "Brain - Vessels"
+	sagittal: {
+		 src: "./images/A3.png"
+		,name: "Brain - mask"
 		,columns: 1
-		,slices: 160
-		,zScale: 0.65
+		,slices: 20
+		,zScale: 0.2
+	}
+	,ves: {
+		 src: "./images/Lung.png"
+		,name: "Lung-mask"
+		,columns: 1
+		,slices: 8
+		,zScale: 0.2
 	},
 	sa: {
 		src: "./images/A2.png"
-	   ,name: "TEST"
+	   ,name: "Brain"
 	   ,columns: 2
 	   ,slices: 20
-	   ,zScale: 1
+	   ,zScale: 0.5
    }
-	,handgelenk: {
+	/*,handgelenk: {
 		 src: "./images/handgelenk.jpg"
 		,name: "Wrist"
 		,columns: 4
 		,slices: 316
 		,zScale: 1.5
-	}
+	
 	,handgelenk2: {
 		 src: "./images/handgelenk2.jpg"
 		,name: "Wrist 2"
@@ -57,7 +57,7 @@ var volumes = {
 		,columns: 16
 		,slices: 128
 		,zScale: 1
-	}
+	}*/
 	,smallSphere: {
 		 src: "./images/smallsphere.png"
 		,name: "Small Sphere"
