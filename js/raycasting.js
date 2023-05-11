@@ -14,7 +14,7 @@ var volumes = {
 		,name: "Lung-mask"
 		,columns: 1
 		,slices: 8
-		,zScale: 0.5
+		,zScale: 0.
 	},
 	sa: {
 		src: "./images/A2.png"
