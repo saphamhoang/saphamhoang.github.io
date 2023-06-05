@@ -3,61 +3,67 @@
 
 var volumes = {
 	sagittal: {
-		 src: "./images/A3.png"
-		,name: "Brain - mask"
+		 src: "./images/LGG_I.png"
+		,name: "Brain"
+		,columns: 1
+		,slices: 23
+		,zScale: 0.5
+	},cube: {
+		src: "./images/LGG_M1.png"
+	   ,name: "Brain-mask_1"
+	   ,columns: 1
+	   ,slices: 20
+	   ,zScale: 0.2
+   }
+	,ves: {
+		 src: "./images/LGG_M2.png"
+		,name: "Brain-mask_2"
 		,columns: 1
 		,slices: 20
-		,zScale: 0.2
-	}
-	,ves: {
-		 src: "./images/Lung.png"
-		,name: "Lung-mask"
-		,columns: 1
-		,slices: 8
-		,zScale: 0.2
+		,zScale: 0.3
 	},
 	sa: {
-		src: "./images/A2.png"
-	   ,name: "Brain"
-	   ,columns: 2
-	   ,slices: 20
-	   ,zScale: 0.5
+		src: "./images/LGG_M3.png"
+	   ,name: "Brain-mask_3"
+	   ,columns: 1
+	   ,slices: 24
+	   ,zScale: 0.3
    }
-	/*,handgelenk: {
-		 src: "./images/handgelenk.jpg"
-		,name: "Wrist"
-		,columns: 4
-		,slices: 316
-		,zScale: 1.5
-	
-	,handgelenk2: {
-		 src: "./images/handgelenk2.jpg"
-		,name: "Wrist 2"
-		,columns: 2
-		,slices: 160
+	,handgelenk: {
+		 src: "./images/LIDC_I.png"
+		,name: "Lung"
+		,columns: 1
+		,slices: 9
 		,zScale: 0.5
+	
+	},handgelenk2: {
+		 src: "./images/LIDC_M1.png"
+		,name: "Lung-mask_1"
+		,columns: 1
+		,slices: 9
+		,zScale: 0.2
 	}
 	,broccoli: {
-		 src: "./images/broccoli.png"
-		,name: "Broccoli"
+		 src: "./images/LIDC_M2.png"
+		,name: "Lung-mask_2"
 		,columns: 1
-		,slices: 50
-		,zScale: 0.7
+		,slices: 28
+		,zScale: 0.3
 	}
 	,sphereAntialiased: {
-		 src: "./images/sphere_antialiased.png"
-		,name: "Sphere (Anti-aliased)"
-		,columns: 16
-		,slices: 256
-		,zScale: 1
+		 src: "./images/LIDC_M3.png"
+		,name: "Lung-mask_3"
+		,columns: 1
+		,slices: 11
+		,zScale: 0.3
 	}
-	,cube: {
+	/*,cube: {
 		 src: "./images/cuuube.png"
 		,name: "Cube"
 		,columns: 16
 		,slices: 128
 		,zScale: 1
-	}*/
+	}/*
 	,smallSphere: {
 		 src: "./images/smallsphere.png"
 		,name: "Small Sphere"
@@ -65,10 +71,10 @@ var volumes = {
 		,slices: 128
 		,zScale: 1
 	}
-	/*,pouet: {
-		 src: "./images/pouet.png"
+	,pouet: {
+		 src: "./images/LGG_I.png"
 		,name: "Pouët"
-		,columns: 2
+		,columns: 1
 		,slices: 176
 		,zScale: 0.7
 	}*/
