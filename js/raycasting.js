@@ -20,8 +20,9 @@ var volumes = {
 		,name: "Brain-mask_2"
 		,columns: 1
 		,slices: 20
-		,zScale: 0.3
-	},
+		,zScale: 0.5
+	}
+	,
 	sa: {
 		src: "./images/LGG_M3.png"
 	   ,name: "Brain-mask_3"
